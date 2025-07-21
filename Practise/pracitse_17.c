@@ -8,7 +8,7 @@ int main() {
      printf("Till how many times you want to multiply it?");
      scanf("%d",&t);
      printf("The multiplication table of number %d is down below in backwards\n",i);
-     for ( ; t ; t--)
+     for ( ; t ; t--)// No initiastion and declaration is done here as it is not even needed 
      {
 //Result
           printf("%d X %d = %d\n",i,t,i*t);
