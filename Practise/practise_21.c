@@ -15,7 +15,7 @@ int main() {
           s+=m;
      }
 // Summing up the products
-     printf("Sum of that products of those multiplication",s);
+     printf("Sum of that products of those multiplication:- %d",s);
      
      return 0;
 }
