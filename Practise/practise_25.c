@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-// This is the code to find out if the number given by user is prime or not
+// This is the code to find out if the number given by user is prime or not.
 int main()
 {
     int i = 0, p = 0;// To remove garbage value

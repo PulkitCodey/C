@@ -1,4 +1,5 @@
 #include <stdio.h>
+// Simple interest and Compound interest calculator
 #include <math.h>
 // math.h is included to use the pow function (power adding operator like x to the power z) for compound interest calculation its js same as like that of stdio and use to include math operators which stdio doesn't support
 int main() {

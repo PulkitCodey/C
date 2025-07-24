@@ -1,5 +1,5 @@
 #include <stdio.h>
-// A code that ask user how many natual numbers he want to write
+// A code that ask user how many natual numbers he want to write using (do while) loop
 int main() {
     int i,n=1;//hardcodded n=1 so that it would start from 1 as natural numbers start from 1
     puts("How many natural numbers do you want to write");

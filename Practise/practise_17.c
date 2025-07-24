@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// A code that writes the whole multiplication table backwards for a given number and times using input from user
 int main() {
     puts("Hmm new task for me want to write the whole multiplication table backwards fine");
     int i=0, t=0;// This is done to remove garbage value

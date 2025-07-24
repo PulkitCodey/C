@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//This code gives grading to a student by checking his percentage in that subject
 int main() {
     puts("Enter Percentage: ");
     float g;

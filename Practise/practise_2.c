@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// This program calculates area of rectangele using input for length and breadth from user
 int main() {
     int length, breadth;
     printf("Enter the length of the rectangle: ");

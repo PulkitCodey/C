@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// Checks if input year is leap year or not
 int main() {
     puts("Wanna check if a year is leap year or not? Alright, tell me year and I will tell you");
     int y;

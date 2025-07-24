@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//This code calculates percentage in each subject by taking input of marks out of 70 in those subjects by user and tells user if he/she is passed in those subjects or not and lists those in which he/she has failed. Works only for five subjects.
 int main()
 {
     // Asking marks from user in each subject

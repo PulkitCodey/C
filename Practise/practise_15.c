@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//A code that writes natural number in reverse order by taking starting point as input from user
 int main() {
     int i=0,n=0; //Both of them are intialised to 0 to avoid garbage value
     puts("Oh new task want me to write natural numbers in reverse order");

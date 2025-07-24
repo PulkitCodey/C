@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//This code calculates tax for user by taking his income as input and calulates amount of tax he/she has to pay also states about rebate if her salary is less than the set value by goverment and also calculates tds for the user.5
 int main()
 {
     int income;

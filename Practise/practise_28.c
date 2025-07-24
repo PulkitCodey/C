@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// A code that checks if a character is lowercase or uppercase
 int main() {
     puts("Is that a lowercase letter or an uppercase letter? Lets find out");
     char c;

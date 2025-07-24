@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// This code calculates area of circle or volume of cylinder by taking value of radius for cirle and value of radius and height from user
 int main() {
     // Here I am using puts its works almost same as that printf but like you should let things stay for what they are made for puts is used for contextual things it can't do calculation or other stuff pure printer for c language and it automatically adds new line after completing like adding /n automatically after completing code printf doesn't do this thing
     puts("What you wanna calcuate area of cirle or volume of cylinder? Select 1 for area of circle and 2 for volume of cylinder");

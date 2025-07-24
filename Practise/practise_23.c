@@ -1,5 +1,5 @@
 #include <stdio.h>
-//Just a normal code to print number given by the user many times  as asked in console
+//Just a normal code to print number given by the user as many times as asked by user in console
 int main() {
     int n=0,t=0;// done to remove garbage value
     puts("So want to repeat same number for specific number of times alright");

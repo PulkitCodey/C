@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// A simple celsius to fahrenheit converter
 int main() {
     puts("Oh having fever huh? But its showing in celsius. Do you want to convert it to fahrenheit? If yes then type Y or else type N");
     char choice; //char is another data type like that of int or float used to store ONE SINGLE CHARACTER in it.

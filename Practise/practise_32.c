@@ -1,4 +1,7 @@
-#include <stdio.h>
+#include <stdio.h> 
+// This is a simple calculator program that performs addition, subtraction, multiplication, and division
+// It uses functions to perform each operation and includes a welcome screen
+
 void WelcomeScreen()
 {
     puts("Welcome to Calculator");

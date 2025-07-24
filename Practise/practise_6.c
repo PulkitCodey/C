@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// This code checks if number entered by user is divisible by 97 is or not
 int main() {
     puts("Let's check if the number mentioned is divisible by 97 or not");
     puts("Enter the number to check:\n");

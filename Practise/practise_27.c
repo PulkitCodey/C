@@ -1,6 +1,6 @@
  #include <stdio.h>
 #include <math.h>
-// This is the code to find out if the number given by user is prime or not using while
+// This is the code to find out if the number given by user is prime or not using do while
 int main()
 {
     int i = 0, p = 0, n = 2; // To remove garbage value

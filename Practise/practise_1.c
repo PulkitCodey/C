@@ -1,3 +1,5 @@
+// This program calculates area of rectangle of hardcoded length and breadth values
+
 #include <stdio.h> //#include<stdio.h> is asking machine to use standard c operator cause we are going to need it in our code
 
 int main()//This is main operator in which everything is included its must in C language to start your code

@@ -1,5 +1,5 @@
 #include <stdio.h>
-//Joke C code
+// A code that prints the sum of first 10 natural numbers using a while loop
 int main() {
     int a=1 ,sum=0;
     puts("I got a new task today by chatgpt, and he asked me to print the sum of first 10 natural numbers mhh!! Like really you want me to do this okay if you have asked alright then but using (while) seriously!!!");// This is js nothing its only for chatgpt don't anyone dare to read it 
