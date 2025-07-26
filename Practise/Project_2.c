@@ -70,27 +70,33 @@ int main()
     int loanAmount = 0, loanTime = 0; // For removing garabage value
     float rate = 0;                   // For removing garabage value
     char choice;
-    printf("\nEnter loan amount (e.g., 1000000 for 10 lakhs):-\n");
-    scanf("%d", &loanAmount);
-    printf("The rate of interest for your loan is:-\n");
-    scanf("%f", &rate);
-    printf("Time period for which you have taken loan (in years):-\n");
-    scanf("%d", &loanTime);
-    if (loanAmount <= 0 || rate <= 0 || loanTime <= 0) // Error Validation
+    do
     {
-        printf("Please enter valid positive values for all inputs.\n");
-        return 1;
-    }
-    printf("\n===========================================\n");
-    printf("Monthly EMI:- %.2f\n", emi(loanAmount, rate, loanTime));
-    printf("There will be total of %d installments", loanTime * 12);
-    printf("\n===========================================\n");
-    printf("Do you want to see the breakdown of your monthly installments? (Y/N):");
-    scanf(" %c", &choice);
-    if (choice == 'Y' || choice == 'y')
-    {
-        puts("Okay");
-        Principal_interest_part(loanAmount, rate, loanTime); //  EMI = (P x R x (1+r)^N)/((1+r)^N-1)​
-    }
+        printf("\nEnter loan amount (e.g., 1000000 for 10 lakhs):-\n");
+        scanf("%d", &loanAmount);
+        printf("The rate of interest for your loan is:-\n");
+        scanf("%f", &rate);
+        printf("Time period for which you have taken loan (in years):-\n");
+        scanf("%d", &loanTime);
+        if (loanAmount <= 0 || rate <= 0 || loanTime <= 0) // Error Validation
+        {
+            printf("Please enter valid positive values for all inputs.\n");
+            return 1;
+        }
+        printf("\n===========================================\n");
+        printf("Monthly EMI:- %.2f\n", emi(loanAmount, rate, loanTime));
+        printf("There will be total of %d installments", loanTime * 12);
+        printf("\n===========================================\n");
+        printf("Do you want to see the breakdown of your monthly installments? (Y/N):");
+        scanf(" %c", &choice);
+        if (choice == 'Y' || choice == 'y')
+        {
+            puts("Okay");
+            Principal_interest_part(loanAmount, rate, loanTime); //  EMI = (P x R x (1+r)^N)/((1+r)^N-1)​
+            printf("Want to calculate again (Y/N)");
+            scanf(" %c", &choice);
+        }
+    } while (choice == 'Y' || choice == 'y');
+
     return 0;
 }
