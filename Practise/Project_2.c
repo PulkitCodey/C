@@ -18,6 +18,8 @@ void welcomeScreen()
     {
         if (j == 2)
             printf("\n|                  W E L C O M E                  |");
+        else if (j == 4)
+            printf("\n|                                     PULKIT BHATT|");
         else
             printf("\n|                                                 |");
     }
@@ -52,13 +54,13 @@ void Principal_interest_part(int principal, float rate, int time_period)
         float interstPart = (tempPrincipal * monthlyRate), principalPart = monthlyEMI - interstPart;
         printf("Month %d | Principal part %.2f | Interest part %.2f:- \n", i + 1, principalPart, interstPart);
         tempPrincipal -= principalPart;
-        if (fabs(tempPrincipal) < 0.01)//This is done so that if the temp principal is lower than 0.01 then it stop calculating and helps keep error message away.
+        if (fabs(tempPrincipal) < 0.01) // This is done so that if the temp principal is lower than 0.01 then it stop calculating and helps keep error message away.
             tempPrincipal = 0;
     }
     float totalInterestPaid = (monthlyEMI * totalMonths) - principal;
-    printf("\nTotal Interest Paid over %d years: ₹%.2f\n", time_period, totalInterestPaid);
+    printf("\nTotal Interest Paid over %d years: %.2f\n", time_period, totalInterestPaid);
     float totalPaid = monthlyEMI * totalMonths;
-    printf("Total Amount Paid to Bank: ₹%.2f\n", totalPaid);
+    printf("Total Amount Paid to Bank: %.2f\n", totalPaid);
 }
 
 // Main Program
@@ -74,7 +76,7 @@ int main()
     scanf("%f", &rate);
     printf("Time period for which you have taken loan (in years):-\n");
     scanf("%d", &loanTime);
-    if (loanAmount <= 0 || rate <= 0 || loanTime <= 0)//Error Validation
+    if (loanAmount <= 0 || rate <= 0 || loanTime <= 0) // Error Validation
     {
         printf("Please enter valid positive values for all inputs.\n");
         return 1;
@@ -88,7 +90,7 @@ int main()
     if (choice == 'Y' || choice == 'y')
     {
         puts("Okay");
-        Principal_interest_part(loanAmount, rate, loanTime); //  EMI = (P x R x (1+r)^N)/((1+r)N-1)​
+        Principal_interest_part(loanAmount, rate, loanTime); //  EMI = (P x R x (1+r)^N)/((1+r)^N-1)​
     }
     return 0;
 }
