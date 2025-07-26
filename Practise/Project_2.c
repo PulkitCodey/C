@@ -84,7 +84,7 @@ int main()
             return 1;
         }
         printf("\n===========================================\n");
-        printf("Monthly EMI:- %.2f\n", emi(loanAmount, rate, loanTime));
+        printf("Monthly EMI:- %.2f\n", round(emi(loanAmount, rate, loanTime)));
         printf("There will be total of %d installments", loanTime * 12);
         printf("\n===========================================\n");
         printf("Do you want to see the breakdown of your monthly installments? (Y/N):");
