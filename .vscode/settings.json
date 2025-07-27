@@ -1,6 +1,10 @@
 {
     "files.associations": {
+        "*.dbclient-js": "javascript",
+        "*.embeddedhtml": "html",
         "time.h": "c",
-        "cmath": "c"
+        "cmath": "c",
+        "limits": "c",
+        "type_traits": "c"
     }
 }
