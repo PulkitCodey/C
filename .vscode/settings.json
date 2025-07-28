@@ -11,6 +11,8 @@
         "exception": "c",
         "cstdarg": "c",
         "cstdint": "c",
-        "cstdio": "c"
+        "cstdio": "c",
+        "cctype": "c",
+        "cwctype": "c"
     }
 }
