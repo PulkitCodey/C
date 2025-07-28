@@ -13,7 +13,7 @@ void welcomeScreen()
 {
     printf("\n"); // upper border
     for (int i = 0; i < 51; i++)
-        printf("*");
+        printf("X O ");
     for (int j = 0; j < 5; j++)
     {
         if (j == 2)
@@ -25,7 +25,7 @@ void welcomeScreen()
     }
     printf("\n");
     for (int i = 0; i < 51; i++)
-        printf("*");
+        printf("X O");
 }
 
 // Monthly Interest

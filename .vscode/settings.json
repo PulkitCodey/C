@@ -5,6 +5,12 @@
         "time.h": "c",
         "cmath": "c",
         "limits": "c",
-        "type_traits": "c"
+        "type_traits": "c",
+        "typeinfo": "c",
+        "cstdlib": "c",
+        "exception": "c",
+        "cstdarg": "c",
+        "cstdint": "c",
+        "cstdio": "c"
     }
 }
