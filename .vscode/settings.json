@@ -13,6 +13,7 @@
         "cstdint": "c",
         "cstdio": "c",
         "cctype": "c",
-        "cwctype": "c"
+        "cwctype": "c",
+        "stdio.h": "c"
     }
 }
