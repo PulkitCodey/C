@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
-//String Encrypter by increasing its ascii value
+//String Encrypter by increasing its ascii value.
 void Display();
 void Encrypter(char[]);
 void Decrypter(char[]);
