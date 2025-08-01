@@ -15,5 +15,6 @@
         "cctype": "c",
         "cwctype": "c",
         "stdio.h": "c"
-    }
+    },
+    "C_Cpp.autocomplete": "default"
 }
