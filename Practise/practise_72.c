@@ -1,17 +1,26 @@
 #include <stdio.h>
-
-int main() {
-    char input[100];
-    int i;
-    printf("Please input a string:");
-    scanf(" %s",input);
-    printf("Your input is: %s \n",input);
-    printf("Please input a string:");
-    for (int i = 0; i < 99; i++)
+#include <string.h>
+int main()
+{
+    char input1[100], input2[100], ch;
+    int i=0;
+    printf("Enter sentence here:");
+    fgets(input1, 100, stdin);
+    printf("Enter another sentence to compare with:-");
+    while ((ch = getchar()) != '\n' && i < 99)
     {
-        scanf(" %c",&input[i]);
+        input2[i++] = ch;
     }
-    input[i]='\0';
-    printf("Your input is: % \n",input);
-     return 0;
+    input2[i] = '\0';
+
+    int compare = strcmp(input1, input2);
+    if (compare == 0)
+    {
+        puts("Both inputs are equal");
+    }
+    else
+    {
+        puts("Inputs are not equal");
+    }
+    return 0;
 }
