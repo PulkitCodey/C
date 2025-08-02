@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 int main()
+// This code compares if the two words are equal or not
 {
     char input1[100], input2[100], ch;
     int i=0;
