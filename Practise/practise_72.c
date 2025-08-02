@@ -6,6 +6,7 @@ int main()
     int i=0;
     printf("Enter sentence here:");
     fgets(input1, 100, stdin);
+    while ((ch = getchar()) != '\n');
     printf("Enter another sentence to compare with:-");
     while ((ch = getchar()) != '\n' && i < 99)
     {
