@@ -21,7 +21,7 @@ int main() {
 printf("Name %s\n",e1->Name);
 printf("Emp_Code %s\n",e1->code);
 printf("Salary $%.2f\n",e1->salary);
-printf("Address%s\n",e1->add);
+printf("Address %s\n",e1->add);
 printf("Date of Birth %s\n",e1->dob);
 
 return 0;
