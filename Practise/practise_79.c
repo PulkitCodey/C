@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
+// This is code to store name salary and code of three employees
 struct employee 
 {
     char name[10];
