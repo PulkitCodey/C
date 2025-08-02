@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-// An example to show the use of struct in C
+// An example to show use of arrays in struct
 int main() {
     struct Student
     {
